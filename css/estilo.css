@@ -84,3 +84,7 @@ a:hover{
 .historia img{
     display: flex;
 }
+.rp{
+    background-color: burlywood;
+    padding: 10px;
+}
