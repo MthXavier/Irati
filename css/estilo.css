@@ -1,17 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
 div{
     font-family: Arial, Helvetica, sans-serif;
 }
-.fundo img{
+
+.fundo{
     width: 100%;
     height: 781px;
+    position: relative;
 }
+
 .nav{
     display: flex;
     flex-direction: row;
+    background-color: burlywood;
+    position: absolute; position: fixed;
+    top: 0;
+    padding-right: 927px;
+    padding-top: 10px; padding-bottom: 10px;
+    text-align: center;
 }
-.cabecalho{
 
-}
 a{
     padding: 5px;
     text-decoration: none;
@@ -19,4 +34,42 @@ a{
 }
 a:hover{
     color: chocolate;
+}
+
+.intro{
+    position: absolute;
+    top: 66%;
+    background-color: white;
+    padding-bottom: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.sp{
+    font-size: larger;
+}
+
+.sp2{
+    color: red;
+}
+
+.historia{
+    text-align: center;
+}
+
+.pdi{
+    text-decoration: none;
+}
+
+.pdi h1{
+    text-align: center;
+}
+
+.sp3{
+    font-size: x-large;
+}
+
+.outros{
+    text-align: center;
 }
