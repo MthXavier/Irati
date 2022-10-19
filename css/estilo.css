@@ -81,8 +81,9 @@ a:hover{
     text-align: center;
 }
 
-.historia img{
+img{
     display: flex;
+    margin: auto;
 }
 .rp{
     background-color: burlywood;
