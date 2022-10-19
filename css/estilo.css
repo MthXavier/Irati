@@ -17,14 +17,16 @@ div{
 }
 
 .nav{
+    font-style: oblique;
     display: flex;
     flex-direction: row;
     background-color: burlywood;
     position: absolute; position: fixed;
     top: 0;
-    padding-right: 927px;
+    padding-right: 73.3%;
     padding-top: 10px; padding-bottom: 10px;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 a{
@@ -36,14 +38,19 @@ a:hover{
     color: chocolate;
 }
 
-.intro{
+.intro h1{
+    font-style: oblique;
+    opacity: 80%;
+    border-style: groove;
+    font-family: cursive;
+    background-image: url(https://st3.depositphotos.com/2129849/13469/v/950/depositphotos_134697472-stock-illustration-colored-light-yellow-blue-background.jpg);
     position: absolute;
-    top: 66%;
-    background-color: white;
+    top: 45%;
+    right: 43%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 200px;
-    padding-left: 200px;
-    text-align: center;
 }
 
 .sp{
@@ -72,4 +79,8 @@ a:hover{
 
 .outros{
     text-align: center;
+}
+
+.historia img{
+    display: flex;
 }
